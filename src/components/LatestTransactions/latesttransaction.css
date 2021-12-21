@@ -1,0 +1,61 @@
+.latestTransactions{ 
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+    flex: 2;
+}
+.latTransTitle{
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #263238;
+}
+.latTransTable{
+    width: 100%;
+    border-spacing: 20px;
+}
+.latTransTh{
+    text-align: left;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.75);
+}
+.latTransTd{
+    display: flex;
+    align-items: center;
+}
+.latTransImg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.latTransUseName{
+    font-weight: 600;
+    font-size: 15px;
+}
+.latTransDate,.latTransAmount{
+    color:#78909C;
+}
+.latTransBtn{
+    border: none;
+    padding: 5px 15px;
+    border-radius: 50px 50px 30px 30px;
+    text-transform: capitalize;
+
+
+}
+.latTransBtn.approved{
+    background: #E8F5E9;
+    color: #388E3C;
+}
+
+.latTransBtn.pending{
+    background: #E8EAF6;
+    color: #303F9F;
+}
+.latTransBtn.rejected{
+    background: #FBE9E7;
+    color: #BF360C;
+}

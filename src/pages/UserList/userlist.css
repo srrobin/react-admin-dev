@@ -1,0 +1,34 @@
+.userList{ 
+    flex:4
+}
+.userListUser{ 
+  display: flex;
+  align-items: center;
+}
+.userListImg{ 
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+
+}
+.userEdit{ 
+    border: none;
+    padding: 5px 15px;
+    border-radius: 50px 50px 30px 30px;
+    text-transform: capitalize;
+    background: #E8F5E9;
+    color: #388E3C;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.userDelete{ 
+    border: none;
+    padding: 5px 15px;
+    border-radius: 50px 50px 30px 30px;
+    text-transform: capitalize;
+    background: #FBE9E7;
+    color: #BF360C;
+    cursor: pointer;   
+}

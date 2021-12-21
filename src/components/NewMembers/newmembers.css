@@ -1,0 +1,60 @@
+.newMembers{ 
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+    flex:1;
+    margin-right: 20px;
+}
+.newMemberTitle{ 
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #263238;
+}
+.singleMemberList{ 
+    margin: 0;
+    padding: 0;
+}
+.newmembersImage{ 
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.singleMemberListItem{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.newMemberIntro{ 
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.memberName{ 
+    font-weight: 700;
+    font-size: 15px;
+
+}
+.memberNamePosition{ 
+    color:gray;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.newMemberbutton{ 
+    display: flex;
+    align-items: center;
+    background-color:#eeeef7 ;
+    padding: 5px 10px;
+    border: none ;
+    color:#555 ;
+    border-radius: 50px 50px 30px 30px;
+    font-size: 14px ;
+    text-transform: capitalize ;
+    cursor: pointer;
+}
+.newmemberIcon{ 
+    margin-right: 5px;
+}

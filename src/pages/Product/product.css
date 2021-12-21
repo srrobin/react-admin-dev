@@ -1,0 +1,132 @@
+.product{ 
+    flex: 4;
+    margin: 20px;
+}
+.productTopSection{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.productTitle{
+    text-transform: capitalize;
+
+    font-size: 30px;
+    font-weight: 700;
+}
+.productCreateButton{
+    border: none;
+    padding: 5px 15px;
+    border-radius: 50px 50px 30px 30px;
+    text-transform: capitalize;
+    background: #E8F5E9;
+    color: #388E3C;
+    font-weight: 600;
+    cursor: pointer;
+}
+.productTop{ 
+    display: flex;
+}
+
+.productLeft{ 
+    flex: 1;
+
+    
+}
+.productRight{
+    flex: 1; 
+    padding: 20px;
+    margin: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+}
+.productRiTopItem{ 
+    display: flex;
+    align-items: center;
+}
+.productTopImage{ 
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.productTopName{ 
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.productRiBottom{ 
+    margin-top: 10px;
+}
+.productBottomItem{ 
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.prductInfoKey{ 
+    font-weight: 600;
+}
+.prductInfoValue{ 
+    font-weight: 300;
+    color: grey;
+}
+.productBottom{  
+    padding: 20px;
+    margin: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+}
+.productUpdateForm{ 
+    display: flex;
+    justify-content:space-around;
+    margin-top: 20px; 
+}
+.productUpdateImage{ 
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.productUpdatTitle{ 
+    text-transform: capitalize;
+    color: grey;
+    margin-bottom: 10px ;
+}
+.productName{ 
+   text-transform: capitalize;
+   border-bottom: 1px solid gray;
+   font-size: 13px;
+   color: gray; 
+   margin-bottom: 10px;
+   padding: 5px;
+   
+}
+.productSelectItem{ 
+    width: 200px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+
+}
+.productSelectItem>label{ 
+    text-transform: capitalize;
+    color: grey;
+    margin-bottom: 5px;
+}
+.productSelect{ 
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+}
+.productUpdateRight{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.productrUpdateLoad{
+    display: flex;
+    align-items: center;
+}

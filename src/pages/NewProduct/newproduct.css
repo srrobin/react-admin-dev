@@ -1,0 +1,57 @@
+.newProduct{
+    flex: 4;
+    margin: 20px;
+}
+.newProductTitle{
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.newProductForm{ 
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.formItem{ 
+    width: 400px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.formItem>label{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 10px;
+}
+.formItem>input{ 
+    padding: 9px;
+    border: 1px solid rgb(190, 188, 188);
+    border-radius: 5px;
+}
+.newProductGender>input{ 
+    margin-left: 13px;
+}
+.newProductGender>label{ 
+    text-transform: capitalize;
+    font-weight: 600;
+    color: grey;
+}
+.newProductSelect{ 
+    padding: 9px;
+    border: 1px solid rgb(190, 188, 188);
+    border-radius: 5px;
+}
+.newProductBtn{ 
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50px 50px 30px 30px;
+    text-transform: capitalize;
+    background: #E8F5E9;
+    color: #388E3C;
+    cursor: pointer;
+    width: 200px;
+
+}

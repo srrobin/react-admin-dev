@@ -1,0 +1,136 @@
+.user{ 
+    flex: 4;
+    margin: 20px;
+}
+.userTopSection{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.userTitle{
+    text-transform: capitalize;
+
+    font-size: 30px;
+    font-weight: 700;
+}
+.userCreateButton{
+    border: none;
+    padding: 5px 15px;
+    border-radius: 50px 50px 30px 30px;
+    text-transform: capitalize;
+    background: #E8F5E9;
+    color: #388E3C;
+    font-weight: 600;
+    cursor: pointer;
+}
+.userContainer{
+    display: flex;
+}
+
+.userShow{
+    flex: 1;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.userUpdate{
+    flex: 2;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+}
+.userShowTop{ 
+    display: flex;
+    align-items: center;
+}
+.usershowImg{ 
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.userShowTopTitle{ 
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.userShowName{
+   font-weight: 600; 
+   text-transform: capitalize;
+}
+.userShowTitle{
+    font-weight: 300;
+    color:gray;
+    text-transform: capitalize;
+}
+.userInfoTitle{
+    text-transform: capitalize;
+    color: rgb(170, 170, 170);
+    margin:20px 0;
+    display: inline-block;
+
+}
+.userInfo{ 
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.userInfoImg{ 
+    font-size: 18px !important;
+    color: #373737;
+}
+.userInfoDetail{ 
+    color: #616161;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+
+.userUpdateForm{ 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.userUpdateInfo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.userUpdateInfo>label{
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    color: #616161;
+    font-weight: 600;
+    
+}
+.userUpdateInput{ 
+    border: none;
+    width: 250px;
+    height: 30px;
+    font-size: 14px;
+    border-bottom: 1px solid gray;
+}
+
+.userUpdateRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.userUpdateLoad{
+    display: flex;
+    align-items: center;
+}
+.userUpdateImage{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+
+}
+.userCreateIcon{
+    cursor: pointer;
+}
